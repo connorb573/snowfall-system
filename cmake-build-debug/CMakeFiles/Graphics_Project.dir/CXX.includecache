@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connorbrookes/Documents/Uni/Graphics Project/oneParticle.cpp
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+math.h
+-
+GLUT/glut.h
+-
+

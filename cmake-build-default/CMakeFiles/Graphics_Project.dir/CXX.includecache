@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connorbrookes/Documents/Uni/Graphics Project/frames.h
+frames.h
+/Users/connorbrookes/Documents/Uni/Graphics Project/frames.h
+sys/time.h
+-
+stdio.h
+-
+
+/Users/connorbrookes/Documents/Uni/Graphics Project/particles.cpp
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+math.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+frames.h
+/Users/connorbrookes/Documents/Uni/Graphics Project/frames.h
+printvalues.h
+/Users/connorbrookes/Documents/Uni/Graphics Project/printvalues.h
+
+/Users/connorbrookes/Documents/Uni/Graphics Project/printvalues.h
+frames.h
+/Users/connorbrookes/Documents/Uni/Graphics Project/frames.h
+sys/time.h
+-
+stdio.h
+-
+

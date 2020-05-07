@@ -1,0 +1,46 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/connorbrookes/Documents/Uni/Graphics Project"
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Platform/Darwin-Initialize.cmake:131 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    /Library/Developer/CommandLineTools/usr/bin/cc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /Library/Developer/CommandLineTools/usr/bin/c++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/connorbrookes/Documents/Uni/Graphics Project/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/connorbrookes/Documents/Uni/Graphics Project/cmake-build-debug/CMakeFiles/CMakeError.log".
+Cannot read /Users/connorbrookes/Documents/Uni/Graphics Project/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake
+Cannot read /Users/connorbrookes/Documents/Uni/Graphics Project/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake
+
+Cannot get compiler information:
+	Cannot run program "/Library/Developer/CommandLineTools/usr/bin/c++" (in directory "/Users/connorbrookes/Documents/Uni/Graphics Project/cmake-build-debug"): error=2, No such file or directory
